@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30f4a9ef-2912-4a4f-97b0-8969d3f8b24c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../_3/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../_3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../_3/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../_3/out/" />
@@ -53,7 +52,7 @@
       <file leaf-file-name="SelectServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../_3/src/main/java/servlet/SelectServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="765">
               <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding />
             </state>
@@ -875,12 +874,20 @@
       <updated>1548211082166</updated>
       <workItem from="1548211084901" duration="493000" />
       <workItem from="1548211600686" duration="2250000" />
-      <workItem from="1550622775535" duration="1568000" />
+      <workItem from="1550622775535" duration="1622000" />
     </task>
+    <task id="LOCAL-00001" summary="j">
+      <created>1550624376901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550624376901</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4311000" />
+    <option name="totallyTimeSpent" value="4365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -922,6 +929,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="j" />
+    <option name="LAST_COMMIT_MESSAGE" value="j" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1139,7 +1150,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../_3/src/main/java/servlet/SelectServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="765">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
