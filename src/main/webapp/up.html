@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.ajax({
+                "url":"select",
+                "type":"GET",
+                "dataType":"JSON",
+                "success":a
+            });
+            function a(data) {
+                for (var i = 0; i < data.length; i++) {
+                        var $s = $("<tr><td><a href='update?type=selbyid&id=" + data[i].mid + "'>" + data[i].mid +
+                            "</a></td><td>" + data[i].mname +
+                            "</td><td>" + data[i].mgender + "</td><td>"
+                            + data[i].mage + "</td><td>" +
+                            data[i].maddress + "</td><td>" +
+                            data[i].memail + "</td></tr>");
+
+                        $("table").append($s);
+                    }
+                }
+        })
+
+    </script>
+</head>
+<body>
+<table border="1">
+    <div>
+        <tr>
+            <td colspan="6">俱乐部会员信息</td>
+        </tr>
+        <tr>
+            <td>编号</td>
+            <td>姓名</td>
+            <td>性别</td>
+            <td>年龄</td>
+            <td>家庭住址</td>
+            <td>电子邮箱</td>
+        </tr>
+    </div>
+</table>
+</body>
+</html>
